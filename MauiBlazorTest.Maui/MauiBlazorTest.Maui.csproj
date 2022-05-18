@@ -53,8 +53,4 @@
 	  <ProjectReference Include="..\MauiBlazorTest.Blazor.Components\MauiBlazorTest.Blazor.Components.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Shared\" />
-	</ItemGroup>
-
 </Project>
