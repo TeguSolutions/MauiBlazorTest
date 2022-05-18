@@ -1,4 +1,6 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@using MauiBlazorTest.Blazor.Components.Pages
+@*<Router AppAssembly="@typeof(App).Assembly">*@
+<Router AppAssembly="@typeof(Counter).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
