@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\MauiBlazorTest.Blazor.Components\MauiBlazorTest.Blazor.Components.csproj" />
     <ProjectReference Include="..\Shared\MauiBlazorTest.Blazor.Shared.csproj" />
   </ItemGroup>
 
