@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazorTest.Blazor.Serve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazorTest.Blazor.Shared", "MauiBlazorTest.Blazor\Shared\MauiBlazorTest.Blazor.Shared.csproj", "{4BBEF958-7704-45DB-8D25-6ABA6FE10AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorTest.Blazor.Components", "MauiBlazorTest.Blazor.Components\MauiBlazorTest.Blazor.Components.csproj", "{29E6F54D-8ED6-46D9-873D-D3AB63E3BAAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBlazorTest.Blazor.Components", "MauiBlazorTest.Blazor.Components\MauiBlazorTest.Blazor.Components.csproj", "{29E6F54D-8ED6-46D9-873D-D3AB63E3BAAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
