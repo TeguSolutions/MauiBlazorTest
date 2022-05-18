@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Components.WebView.Maui;
-using MauiBlazorTest.Maui.Data;
-
-namespace MauiBlazorTest.Maui;
+﻿namespace MauiBlazorTest.Maui;
 
 public static class MauiProgram
 {
@@ -15,13 +12,13 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 			});
 
+        builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:44371/") });
+
 		builder.Services.AddMauiBlazorWebView();
 #if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
 
-		builder.Services.AddSingleton<WeatherForecastService>();
-
-		return builder.Build();
+        return builder.Build();
 	}
 }
