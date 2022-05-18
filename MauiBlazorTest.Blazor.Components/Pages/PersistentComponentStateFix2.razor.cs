@@ -7,5 +7,5 @@ namespace MauiBlazorTest.Blazor.Components.Pages;
 public class PersistentComponentStateFix2VM : PageVMBase
 {
     [Inject]
-    protected IPersistentComponentState PersistentComponentState { get; set; }
+    protected IPersistentComponentState PersistentComponentState { get; set; } 
 }
